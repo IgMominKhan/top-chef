@@ -4,6 +4,9 @@ dependencies:
   express:
     specifier: ^4.18.2
     version: 4.18.2
+  uniqid:
+    specifier: ^5.4.0
+    version: 5.4.0
 
 packages:
 
@@ -390,6 +393,10 @@ packages:
     dependencies:
       media-typer: 0.3.0
       mime-types: 2.1.35
+    dev: false
+
+  /uniqid@5.4.0:
+    resolution: {integrity: sha512-38JRbJ4Fj94VmnC7G/J/5n5SC7Ab46OM5iNtSstB/ko3l1b5g7ALt4qzHFgGciFkyiRNtDXtLNb+VsxtMSE77A==}
     dev: false
 
   /unpipe@1.0.0:
