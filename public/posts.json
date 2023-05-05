@@ -1,0 +1,14 @@
+[
+  {"question":"What is the differences between uncontrolled and controlled components?","answer":"In React DOM Elements are handled by react virtual dom. Normally Form Elements data are handle by javascript DOM. these are uncontrolled components to react. On the oposite While we controll form elements data using react's methods these are known as controlled components."},
+  {
+    "question":"How to validate React props using PropTypes?",
+    "answer":"To validate react Props using PropsTyes assign an object, includes props:type to the component itself here is an example check Props"
+  },{
+  "question":"Difference between nodejs and express js",
+  "answer":"Nodejs is a javascript runtime, build on top of google chrome's V8 javascript engine. Nodejs is used to build server side applications. ExpressJs is a javascript Micro-framework for NodeJs. Express Js is commonly used to serve data (API);. It helps developers to build web applications in a short time."
+  },
+  {
+    "question":"What is a custom hook, and why will you create a custom hook?",
+    "answer":"Custom hooks are functions build using react's multiple hooks to Keep codes DRY and increse code reuseability. react hooks are named using 'use' prefix, and react suggest to use 'use' prefix for naming custom hooks."
+  }
+]
